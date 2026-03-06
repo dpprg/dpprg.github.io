@@ -70,3 +70,63 @@ Tag: role::hacker
 Author: 神秘人
 Name: 无根黑洞
 
+Package: com.20251010
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: firmware (>= 8.0), mobilesubstrate
+Filename: rootful/2+1插件2025年10月10.deb
+Size: 6194366
+MD5sum: d8570ed858499839df73f2c8d4af407b
+SHA1: 90b8cc7f0e01d369dfcd8aa079642ee16b0baeec
+SHA256: bbd981b4d466804da905332ba67a386aaad25882357aff7b3b53f6a44fffc83e
+Section: 1.0
+Priority: optional
+Author: feng78210
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: 2+1插件2025年10月10
+
+Package: com.tesla.caijij
+Version: 1.0.0
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: rootful/com.tesla.caijij_1.0.0_iphoneos-arm.deb
+Size: 435178
+MD5sum: a717e3334d9b787de31b4890b14bccff
+SHA1: 7cfb08cb486e1898f9088586dd2b1715d6d04990
+SHA256: 57e23470a0b1f1750a0e599d388bb66a98b7ae04221e3499455c0427baa479b0
+Section: 牛
+Priority: optional
+Author: tesla
+Icon: null
+Name: 采集
+
+Package: com.tesla.chukuj
+Version: 1.0.0
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: rootful/com.tesla.chukuj_1.0.0_iphoneos-arm.deb
+Size: 492972
+MD5sum: fbc34cccdb9cbcaf3d0270f58e6b17db
+SHA1: 892714de8ab713c1fc308674af1f655bbbbb3b7e
+SHA256: 693fdc478e1385cd8da0777ce9cb749a8d54d2f60027af602aff86cab3269bb5
+Section: 牛
+Priority: optional
+Author: tesla
+Icon: null
+Name: 出库
+
+Package: com.tesla.rukuj
+Version: 1.0.0
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: rootful/com.tesla.rukuj_1.0.0_iphoneos-arm.deb
+Size: 143542
+MD5sum: ce977b71b7b13a958b0abd0fd57cb88f
+SHA1: 3bce6939750871dd0afab208ad46e190887c23a1
+SHA256: 19ffecf69a257c20ad0f49be342d79842d542dea3b4e22582be0c45b63d6b7bf
+Section: 牛
+Priority: optional
+Author: tesla
+Icon: null
+Name: 入库
+
