@@ -3,11 +3,11 @@ Version: 1.0
 Architecture: all
 Maintainer: DPP
 Depends: firmware (>= 14.0), mobilesubstrate
-Filename: roothide/dpp-roothide.deb
-Size: 3691186
-MD5sum: 4a5f632ea5464885a27fbd41f6829bce
-SHA1: c4f78eab929e91807503ac9eea176de2cc0d4e57
-SHA256: 77a9b985dda2f8ebfdcc42bb00d14604632d669e0fccc0b451c3bcfc804483cf
+Filename: roothide/隐根.deb
+Size: 3735036
+MD5sum: c0453225a10a3eaceba41a3fb668bb8a
+SHA1: 67b8f6648fab9c73566e1438d93856701582612a
+SHA256: 6b5b727e362825eb28f7d66b32da1a5bd8205fb1986fad805a11882e75805a37
 Section: Tweaks
 Priority: optional
 Description: DPP隐私保护(roothide)
@@ -37,96 +37,22 @@ Tag: purpose::daemon, role::enduser
 Author: saurik, Cannathea <csupport@cannathea.com>
 Name: AFC2(rootless)
 
-Package: dev.sys.dpprootless
+Package: dev.sys.dipp
 Version: 1.0
 Architecture: all
 Maintainer: DPP
 Depends: firmware (>= 14.0), mobilesubstrate
-Filename: rootless/dpp.deb
-Size: 3691100
-MD5sum: 15c6825c1293a9d894904e42d108317f
-SHA1: 3b90ee3855db5f4c38ea598b3ad4b65d7b09e539
-SHA256: 607feb2d751ebee1aa0986cda1c2824edcdc41a398a8f1d11ef42f361422fa3a
+Filename: rootless/无根.deb
+Size: 3735020
+MD5sum: ee486afa16875eef4e14b8b14e7ec04b
+SHA1: 43fa18e67a61e944d9c516c90c6924476744bcd4
+SHA256: 22bb6e805ff3b8c4f938cc2d92b62cf01c2cd90cb9f96d5f9b66a76eee8951a9
 Section: Tweaks
 Priority: optional
+Description: DPP隐私保护
 Author: Apple
+Depiction: DPP
+Dev: Apple
 Icon: xx
 Name: DPP
-
-Package: run.er.wormctrl
-Version: 1.1.0
-Architecture: iphoneos-arm64
-Maintainer: 神秘人
-Installed-Size: 1172
-Depends: mobilesubstrate, preferenceloader
-Filename: rootless/无根黑洞_1.1.0_iphoneos-arm64.deb
-Size: 168516
-MD5sum: 06bf630bae4620c4b0a03205e4e3b910
-SHA1: 56a23dc43d74629eaef76864df5e8cda5e50d608
-SHA256: 735927635ba3053d027bc2791921c25a78019f74170d703474136306d329bef5
-Section: 多巴胺免费插件
-Description: This is the plugin of blackhole.
-Tag: role::hacker
-Author: 神秘人
-Name: 无根黑洞
-
-Package: com.20251010
-Version: 1.0
-Architecture: iphoneos-arm
-Depends: firmware (>= 8.0), mobilesubstrate
-Filename: rootful/2+1插件2025年10月10.deb
-Size: 6194366
-MD5sum: d8570ed858499839df73f2c8d4af407b
-SHA1: 90b8cc7f0e01d369dfcd8aa079642ee16b0baeec
-SHA256: bbd981b4d466804da905332ba67a386aaad25882357aff7b3b53f6a44fffc83e
-Section: 1.0
-Priority: optional
-Author: feng78210
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-Name: 2+1插件2025年10月10
-
-Package: com.tesla.caijij
-Version: 1.0.0
-Architecture: iphoneos-arm
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: rootful/com.tesla.caijij_1.0.0_iphoneos-arm.deb
-Size: 435178
-MD5sum: a717e3334d9b787de31b4890b14bccff
-SHA1: 7cfb08cb486e1898f9088586dd2b1715d6d04990
-SHA256: 57e23470a0b1f1750a0e599d388bb66a98b7ae04221e3499455c0427baa479b0
-Section: 牛
-Priority: optional
-Author: tesla
-Icon: null
-Name: 采集
-
-Package: com.tesla.chukuj
-Version: 1.0.0
-Architecture: iphoneos-arm
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: rootful/com.tesla.chukuj_1.0.0_iphoneos-arm.deb
-Size: 492972
-MD5sum: fbc34cccdb9cbcaf3d0270f58e6b17db
-SHA1: 892714de8ab713c1fc308674af1f655bbbbb3b7e
-SHA256: 693fdc478e1385cd8da0777ce9cb749a8d54d2f60027af602aff86cab3269bb5
-Section: 牛
-Priority: optional
-Author: tesla
-Icon: null
-Name: 出库
-
-Package: com.tesla.rukuj
-Version: 1.0.0
-Architecture: iphoneos-arm
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: rootful/com.tesla.rukuj_1.0.0_iphoneos-arm.deb
-Size: 143542
-MD5sum: ce977b71b7b13a958b0abd0fd57cb88f
-SHA1: 3bce6939750871dd0afab208ad46e190887c23a1
-SHA256: 19ffecf69a257c20ad0f49be342d79842d542dea3b4e22582be0c45b63d6b7bf
-Section: 牛
-Priority: optional
-Author: tesla
-Icon: null
-Name: 入库
 
